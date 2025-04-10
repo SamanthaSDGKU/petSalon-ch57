@@ -15,9 +15,32 @@
         </nav>
     </header>
     <main>
+        <h2>Register a new pet</h2>
+
+        <div class="myForm">
+            <div class="input-container">
+                <label>Name:</label>
+                <input type="text" id="txtName">
+            </div>
+            <div class="input-container">
+                <label>Age:</label>
+                <input type="number" id="txtAge">
+            </div>
+            <div class="input-container">
+                <label>Gender:</label>
+                <input type="text" id="txtGender">
+            </div>
+            <div>
+                <button onclick="register();">Register</button>
+            </div>
+        </div>
+
         <h2>Pets</h2>
         <div id="results"></div>
     </main>
+
+
+    
 
     <script src="./scripts/register.js"></script>
 </body>

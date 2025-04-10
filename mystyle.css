@@ -25,10 +25,22 @@ header a{
 }
 /*main*/
 main{
-
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
-main h2{
-    font-size: 45px;
-    width: 300px;
-    text-align: right;
+
+.myForm{
+    background-color: lightgray;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+}
+.input-container{
+    margin:20px;
+}
+.input-container input{
+    width: 50%;
+    border:none;
+    padding: 3px;
 }
